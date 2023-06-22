@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../assets/fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../assets/fonts/Pacifico/Pacifico.ttf);
+}
+
+:root {
+  --color-nav: #59564f;
+  --color-heading: rgba(65, 77, 77, 1);
+  --color-primary: rgba(86, 102, 102, 1);
+  --color-secondary: rgba(61, 97, 119, 1);
+  --color-button: rgba(252, 254, 255, 1);
+
+  --background-navbar: #e0eeee;
+  --background-section: rgba(197, 221, 221, 0.5);
+  --background-footer: #c5dddd;
+
+  --font-size-heading-01: 5.6rem;
+  --font-size-heading-02: 4.2rem;
+  --font-size-main-text: 1.8rem;
+  --font-size-small-text: 1.6rem;
+
+  --font-family-primary: Rubik, sans-serif;
+  --font-family-logo: Pacifico, sans-serif;
+}
+
+/* Universal */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-primary);
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+/* responsive img qilish uchun */
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: var(--background-navbar);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15.7rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5.6rem;
+}
